@@ -18,6 +18,8 @@ const getData = async (category: string) => {
   return data;
 };
 
+export const dynamic = "force-dynamic"
+
 const page = async ({
   params,
 }: {
